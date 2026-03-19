@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    height: auto;
+    width: auto;
+    margin: auto;
+    background: linear-gradient(rgb(116, 0, 218),rgb(255, 255, 255), rgb(116, 0, 218), rgb(255, 255, 255));
+}
+
+#Main-head{
+    width: 100%;
+    margin-top: -22px;
+    height: 7em;
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+    margin-left: 750px;
+}
+
+.nav a{
+    font-size: 35px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px black;
+}
+
+.head-title{
+    display: flex;
+    justify-content: center;
+    margin-right: 80em;
+}
+
+.head-title h1{
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(132, 110, 252);
+    text-shadow: 0 5px 10px black;
+}
+
+.head-title h1 span{
+    color: rgb(227, 255, 18);
+}
+
+#Home{
+    height: 46em;
+    width: 100%;
+}
+
+#About{
+    height: 46em;
+    width: 100%;
+}
+
+#Skills{
+    height: 46em;
+    width: 100%;
+}
+
+#Contact{
+    height: 60em;
+    width: 100%;
+}
+
+.title-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5em;
+}
+
+.title-about h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    text-shadow: 1px 0 5px black;
+}
+
+.title-about h1 span{
+    color: rgb(255, 115, 0);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.imgs{
+    display: flex;
+    margin-top: 3em;
+}
+
+.text-img{
+    margin-left: 40px;
+    margin-top: 10em;
+}
+
+.h1-dev h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 1px;
+    color: rgb(255, 157, 38);
+    text-shadow: 4px 0 1px black;
+}
+
+.h1-dev h1 span{
+    color: rgb(73, 185, 255);
+}
+
+.h1-dev{
+    background: rgb(152, 152, 152);
+    width: 27em;
+    border-radius: 10px;
+    border: 2px solid rgb(81, 81, 81);
+    height: 3em;
+    margin-bottom: 20px;
+}
+
+.text-img h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    margin-top: -1px;
+    font-weight: 450;
+    text-shadow: -4px 0 1px rgb(0, 0, 0);
+}
+
+.text-img h2 span{
+    color: rgb(255, 48, 48);
+}
+
+.text-img p{
+    width: 90%;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-top: -20px;
+    font-weight: 450;
+}
+
+.imgs img{
+    width: 90%;
+    margin-top: 4em;
+    height: 500px;
+    margin-left: 2em;
+    border-radius: 50%;
+    box-shadow: 0 0 30px black,
+                0 0 30px rgb(148, 148, 245),
+                0 0 30px rgb(249, 61, 255);
+}
+
+.Main-area{
+    display: flex;
+    justify-content: center;
+}
+
+.main-img{
+    margin-top: 13em;
+    display: flex;
+}
+
+.main-img img{
+    width: 500px;
+    height: 500px;
+    margin-left: 1em;
+    border-radius: 50%;
+    margin-top: -2em;
+    box-shadow: 0 0 30px black,
+                0 0 30px rgb(148, 148, 245),
+                0 0 30px rgb(249, 61, 255);
+}
+
+.text{
+    margin-top: -3em;
+}
+
+.text h1{
+    margin-left: 9em;
+    margin-right: 30px;
+    font-size: 70px;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    color: rgb(18, 235, 255);
+    text-shadow: 5px 0 5px black;
+}
+
+.text h1 span{
+    color: rgb(81, 255, 130);
+}
+
+.text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    width: 70%;
+    margin-left: 13em;
+}
+
+.Main-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -8em;
+}
+
+.box{
+    width: 27.4em;
+    height: 27em;
+    border: 3px solid rgb(255, 234, 49);
+    border-radius: 10px;
+    margin-top: 12em;
+    box-shadow: 0 0 10px yellow,
+                0 0 30px white;
+}
+
+.box ul{
+    background: yellow;
+    width: 3em;
+    margin-left: 20px;
+    height: 5em;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.box ul svg{
+    margin-left: -35px;
+}
+
+.box p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(234, 255, 177);
+    font-size: 20px;
+}
+
+.box .abouts{
+    width: 11em;
+    font-size: 13px;
+    margin-left: 9px;
+    height: 3em;
+    margin-top: -100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.abouts:hover{
+    background: rgb(200, 255, 0);
+    color: black;
+    border: 2px solid black;
+    transition: .4s;
+}
+
+/*second*/
+
+.box2{
+    width: 27.4em;
+    height: 27em;
+    border: 3px solid rgb(255, 145, 0);
+    border-radius: 10px;
+    margin-top: 12em;
+    box-shadow: 0 0 10px rgb(255, 174, 0),
+                0 0 30px white;
+}
+
+.box2 ul{
+    background: rgb(255, 123, 0);
+    width: 3em;
+    margin-left: 20px;
+    height: 5em;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.box2 ul svg{
+    margin-left: -43px;
+    margin-top: 27px;
+}
+
+.box2 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(234, 255, 177);
+    font-size: 20px;
+}
+
+.box2 .abouts2{
+    width: 12em;
+    font-size: 15px;
+    margin-left: 9px;
+    height: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid rgb(255, 123, 0);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.abouts2:hover{
+    background: rgb(255, 123, 0);
+    color: black;
+    border: 2px solid black;
+    transition: .4s;
+}
+
+/* Third */
+
+.box3{
+    width: 27.4em;
+    height: 27em;
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 10px;
+    margin-top: 12em;
+    box-shadow: 0 0 20px rgb(0, 0, 255),
+                0 0 30px white;
+}
+
+.box3 ul{
+    background: rgb(0, 76, 255);
+    width: 3em;
+    margin-left: 20px;
+    height: 5em;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+.box3 ul svg{
+    margin-left: -41px;
+    margin-top: 22px;
+}
+
+.box3 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(234, 255, 177);
+    font-size: 20px;
+}
+
+.box3 .abouts3{
+    width: 12em;
+    font-size: 15px;
+    margin-left: 9px;
+    height: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.abouts3:hover{
+    background: rgb(0, 76, 255);
+    color: white;
+    border: 2px solid white;
+    transition: .4s;
+}
+
+.skills-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.skills-title h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    text-shadow: 1px 0 5px black;
+}
+
+.skills-title h1 span{
+    color: rgb(255, 115, 0);
+}
+
+.Main-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: -7em;
+}
+
+.Contact-form{
+    border: 1px solid black;
+    width: 35em;
+    height: 43em;
+    margin-top: 10em;
+}
+
+.input-box{
+    background: white;
+    margin-left: 75px;
+    width: 25em;
+    height: 3em;
+    border-radius: 10px;
+    margin-top: 4em;
+}
+
+.input-box input{
+    background: transparent;
+    width: 21.9em;
+    height: 2.5em;
+    border-radius: 10px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.input-box label{
+    position: absolute;
+    margin-top: -30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-left: -410px;
+}
+
+.input-box2{
+    background: white;
+    margin-left: 75px;
+    width: 25em;
+    height: 10em;
+    border-radius: 10px;
+    margin-top: 4em;
+}
+
+.input-box2 textarea{
+    background: transparent;
+    width: 21.9em;
+    height: 8.6em;
+    border-radius: 10px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.input-box2 label{
+    position: absolute;
+    margin-top: -30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-left: -410px;
+}
+
+.Contact-form h1{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.check-box{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check-box input{
+    scale: calc(1.5);
+    margin-left: 60px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.check-box p{
+    margin-left: 5px;
+    width: 73%;
+}
+
+#Submit{
+    width: 20em;
+    height: 2em;
+    margin-left: 3.7em;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: rgb(255, 96, 96);
+}
+
+
+.title-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.title-contact h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    text-shadow: 1px 0 5px black;
+}
+
+.title-contact h1 span{
+    color: rgb(255, 115, 0);
+}
+
+.contact-icons ul{
+    margin-right: 20em;
+}
+
+.contact-icons h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    margin-top: 6em;
+    text-shadow: 1px 0 5px black;
+    color: rgb(98, 181, 254);
+}
+
+.contact-icons h1 span{
+    color: rgb(0, 255, 38);
+}
+
+
+@media(max-width: 768px){
+
+    .Main-head{
+        position: fixed;
+    }
+
+    .head-title{
+        margin-left: 3.5em;
+    }
+
+    .nav{
+        margin-left: -9em;
+        margin-top: -6em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav a{
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .main-img{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-img img{
+        margin-left: 29.5em;   
+    }
+
+    .text h1{
+        margin-right: 5em;
+        margin-top: 80px;
+    }
+
+    .text p{
+        width: 40%;
+        margin-left: 23.4em;
+        text-align: left;
+        margin-top: -2em;
+    }
+
+    .title-about{
+        margin-top: 25em;
+        margin-right: -9em;
+    }
+
+    .imgs{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .imgs img{
+        margin-left: 9.5em;
+        margin-top: 7em;
+        width: 500px;
+        height: 500px;
+    }
+
+    .h1-dev{
+       margin-left: 9em;
+       margin-top: -7em;
+    }
+
+    .text-img h2{
+        margin-left: 4.5em;
+        font-size: 40px;
+    }
+
+    .text-img p{
+        text-align: center;
+        margin-left: 5.5em;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .skills-title{
+        margin-top: 21em;
+        margin-right: -9.5em;
+    }
+
+    .Main-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        margin-left: 3em;
+    }
+
+    .box2{
+        margin-left: 3em;
+        margin-top: -0.5em;
+    }
+
+    .box3{
+        margin-left: 3em;
+        margin-top: -0.5em;
+    }
+
+    .title-contact{
+        margin-top: 60em;
+        margin-right: -9em;
+    }
+
+    .Main-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-icons{
+        display: none;
+    }
+
+    .Contact-form{
+        width: 31em;
+        margin-left: 1em;
+    }
+
+    .input-box{
+        margin-left: 50px;
+    }
+
+    .input-box2{
+        margin-left: 50px;
+    }
+
+    .check-box{
+        margin-left: -20px;
+    }
+
+    #Submit{
+        margin-left: 50px;
+    }
+}
